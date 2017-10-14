@@ -1,0 +1,16 @@
+{
+  "require": {
+    "slim/slim": "^3.0",
+    "slim/php-view": "^2.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "application\\controllers\\": "application/controllers/",
+      "application\\models\\": "application/models/",
+      "application\\services\\": "application/services/",
+      "application\\lib\\": "application/lib/",
+      "application\\lib\\AngryCurl\\": "application/lib/AngryCurl",
+      "application\\lib\\RollingCurl\\": "application/lib/RollingCurl"
+    }
+  }
+}
